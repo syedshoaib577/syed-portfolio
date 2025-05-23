@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
+import syedWLogo from '../assets/syedWLogo.png';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -43,9 +44,9 @@ const Navbar = () => {
           }}
         >
           {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
-          <img src='src/assets/syed-white-transparent.png' alt='logo' className='w-9 h-9 object-contain' />
+          <img src={syedWLogo} alt='logo' className='w-13 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Syed &nbsp;
+             &nbsp;
             <span className='sm:block hidden'> Portfolio</span>
           </p>
         </Link>

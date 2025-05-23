@@ -16,9 +16,10 @@ import {
   figma,
   docker,
   meta,
+  shopify,
+  // slk,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -80,6 +81,14 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
   // {
   //   name: "Redux Toolkit",
   //   icon: redux,
@@ -88,10 +97,6 @@ const technologies = [
   //   name: "Tailwind CSS",
   //   icon: tailwind,
   // },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
   // {
   //   name: "MongoDB",
   //   icon: mongodb,
@@ -100,10 +105,6 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  {
-    name: "git",
-    icon: git,
-  },
   // {
   //   name: "figma",
   //   icon: figma,
@@ -114,13 +115,13 @@ const technologies = [
   // },
 ];
 
+import slk from '../assets/company/slk.png';
 const experiences = [
   {
     title: "Software Development Engineer in Test",
     company_name: "SLK Software Pvt. Ltd.",
-    // icon: starbucks,
-    icon: 'src/assets/company/slk.png',
-    iconBg: "#E6DEDD",//"#383E56",
+    icon: slk,
+    iconBg: "#E6DEDD",
     date: "October 2021 - Present",
     points: [
       'Extensive experience in the banking domain, specializing in Global Payments Systems such as MTS, SWIFT and UPF to enhance testing efficiency and ensure seamless transactions.',
@@ -189,6 +190,9 @@ const testimonials = [
   },
 ];
 
+import mts from '../assets/mts.jpg';
+import swift from '../assets/swift.png';
+import upf from '../assets/upf.jpg';
 const projects = [
   {
     name: "Money Transfer System",
@@ -205,7 +209,7 @@ const projects = [
       },
     ],
     // image: carrent,
-    image: 'src/assets/mts.jpg'
+    image: mts
     // source_code_link: "https://github.com/",
   },
   {
@@ -222,7 +226,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: 'src/assets/swift.png'
+    image: swift
   },
   {
     name: "UPF Payment System",
@@ -238,46 +242,53 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: 'src/assets/upf.jpg'
+    image: upf
   },
 ];
 
+import RockstarPic from '../assets/award/22.23 Q1 RockstarPic.jpeg';
+import ShiningStarPic1 from '../assets/award/24.25 Q1 ShiningStarPic.png';
+import ShiningStarPic2 from '../assets/award/23.24 Q2 ShiningStarPic.jpg';
+import VisionChampion from '../assets/award/24.25 Q1 Vision Champion.jpg';
+import Thanks from '../assets/award/23.24 Q4 Thanks.jpg';
+import TeamPlayer from '../assets/award/24.25 Q2 Team Player.jpg';
+import HighFive from '../assets/award/2022 Jun - High Five.jpg';
 const awards = [
   {
     awardTitle: "Budding RockStar Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: 'src/assets/award/22.23 Q1 RockstarPic.jpeg',
+    icon: RockstarPic,
   },
   {
     awardTitle: "Shining Star Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: 'src/assets/award/24.25 Q1 ShiningStarPic.png',
+    icon: ShiningStarPic1,
   },
   {
     awardTitle: "Shining Star Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: 'src/assets/award/23.24 Q2 ShiningStarPic.jpg',
+    icon: ShiningStarPic2,
   },
   
   {
     awardTitle: "Vision Champion Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: 'src/assets/award/24.25 Q1 Vision Champion.jpg',
+    icon: VisionChampion,
   },
   {
     awardTitle: "Thankyou Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: 'src/assets/award/23.24 Q4 Thanks.jpg',
+    icon: Thanks,
   },
   {
     awardTitle: "Team-Player Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: 'src/assets/award/24.25 Q2 Team Player.jpg',
+    icon: TeamPlayer,
   },
   {
     awardTitle: "High-Five Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: 'src/assets/award/2022 Jun - High Five.jpg',
+    icon: HighFive,
   },
 
 ];
