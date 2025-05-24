@@ -51,11 +51,11 @@ const Award = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Awards
-        <br />
-        Awards Description
-        <br />
-        Thank you all for your support and encouragement. I am grateful to have such a wonderful community of friends and colleagues. I look forward to continuing to learn and grow with you all.
+      These recognitions are a testament to the dedication, innovation and impact I've delivered across various projects. 
+      Each award reflects not just a milestone, but the trust and collaboration of peers, mentors and stakeholders.
+      <br /> 
+      <br /> 
+      I am grateful to have such a wonderful community of friends and colleagues. I remain committed to continuous learning, driving excellence and making meaningful contributions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

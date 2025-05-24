@@ -47,20 +47,23 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled Software Development Engineer in Test with a strong 
-        focus on JavaScript-based automation frameworks like WebdriverIO and 
-        Cypress. I'm also familiar with Java, Selenium, and Katalon Studio 
-        for automating web and desktop applications. I have a solid understanding 
-        of BDD frameworks like Cucumber and Mocha, and hands-on experience with 
-        Keyword-Driven, Data-Driven and Hybrid approaches. I'm proficient with 
-        GitHub and Jenkins for CI/CD pipelines.
+        I'm a passionate Software Development Engineer in Test (SDET) with hands-on experience building robust 
+        JavaScript-based automation frameworks for Web and Mobile applications using tools like WebdriverIO and Cypress. 
+        I've also worked with Java, Selenium and Katalon Studio for automating Web and Desktop applications.
         <br />
-        With a strong foundation in software testing and quality assurance, 
-        I'm committed to delivering high-quality software solutions. I'm a quick learner, 
-        passionate about new technologies and I collaborate closely with clients to build 
-        efficient, scalable and user-friendly solutions that reduce manual effort and improve performance.
         <br />
-        Let's work together to bring your ideas to life!
+        Over the years, I've developed a strong command of BDD frameworks like Cucumber and Mocha, 
+        and I'm comfortable implementing Keyword-Driven, Data-Driven, and Hybrid test strategies 
+        depending on project needs. I use GitHub and Jenkins regularly to streamline CI/CD workflows 
+        and keep quality checks tightly integrated into the pipeline.
+        <br />
+        <br />
+        With a solid grounding in QA fundamentals and a problem-solving mindset, I thrive on building solutions 
+        that not only ensure reliability but also reduce manual effort and boost efficiency. I'm always learning, 
+        always iterating — whether it's a new tech stack or a better way to collaborate with teams and stakeholders.
+        <br />
+        <br />
+        Let's connect and build something great — together.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

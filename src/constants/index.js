@@ -255,9 +255,9 @@ import TeamPlayer from '../assets/award/24.25 Q2 Team Player.jpg';
 import HighFive from '../assets/award/2022 Jun - High Five.jpg';
 const awards = [
   {
-    awardTitle: "Budding RockStar Award",
+    awardTitle: "Shining Star Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: RockstarPic,
+    icon: ShiningStarPic2,
   },
   {
     awardTitle: "Shining Star Award",
@@ -265,11 +265,10 @@ const awards = [
     icon: ShiningStarPic1,
   },
   {
-    awardTitle: "Shining Star Award",
+    awardTitle: "Budding RockStar Award",
     orgName: "SLK Software Pvt. Ltd.",
-    icon: ShiningStarPic2,
+    icon: RockstarPic,
   },
-  
   {
     awardTitle: "Vision Champion Award",
     orgName: "SLK Software Pvt. Ltd.",
